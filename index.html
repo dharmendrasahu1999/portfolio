@@ -13,15 +13,16 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- font icons -->
     <link rel="stylesheet" href="./css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
-<body>
+<body id="page-top" class="index">
     <!-- ************************ start header area ************************* -->
 
     <header class="header_area">
         <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar  navbar-expand-lg navbar-dark bg-dark fixed-top ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Jainul Hasan</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,18 +30,16 @@
                   </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
 
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav  ">
+
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
 
                         </ul>
@@ -70,7 +69,7 @@
                         <h4 class="tite-text text-uppercase">CSE Student</h4>
                         <div class="site-buttons">
                             <div class="d-flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire me</button>
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase">contact me</button>
                                 <button type="button" class="btn button secondary-button mr-4 text-uppercase">open cv</button>
                             </div>
                         </div>
@@ -86,7 +85,7 @@
         <!-- ************************ start banner area *************************** -->
         <!-- ************************ start about area *************************** -->
 
-        <section class="about-area">
+        <section id="about" class="about-area">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
@@ -122,30 +121,91 @@
         <!-- ************************ end about area *************************** -->
         <!-- ************************ start project area *************************** -->
 
+        <section id="projects" class="project-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h2 class="project-text">My projects</h2>
+                    </div>
+                </div>
+                <div class="row align-items-start">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h2 class="project-text">My projects</h2>
+                    <div class="col">
+                        <img src="./img/pexels-alex-qian-2343473.jpg" alt="" class="img-fluid" style="padding-top: 4rem; padding-bottom: 4rem">
+                        <button type="button" class="btn button primary-button text text-uppercase">Open project repo</button>
+                    </div>
+                    <div class="col">
+                        <img src="./img/pexels-alex-qian-2343473.jpg" alt="" class="img-fluid" style="padding-top: 4rem; padding-bottom: 4rem">
+                        <button type="button" class="btn button primary-button text text-uppercase">Open project repo</button>
+                    </div>
+                    <div class="col">
+                        <img src="./img/pexels-alex-qian-2343473.jpg" alt="" class="img-fluid" style="padding-top: 4rem; padding-bottom: 4rem">
+                        <button type="button" class="btn button primary-button text text-uppercase">Open project repo</button>
+                    </div>
+                </div>
+        </section>
+        <!-- ************************ end project area *************************** -->
+        <!-- ************************ start contact area *************************** -->
+        <section class="dark-bg text-center section-padding contact-wrap contacts" id="contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Contact Me</h2>
+                        <!-- <h3 class="section-subheading"></h3> -->
+                    </div>
+                    <div class="row contact-details">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-4">
+                            <div class="light-box box-hover">
+                                <h2><i class="fa fa-phone"></i><span>mobile </span></h2>
+                                <p><a href="tel:+918474903914">+91 8474903914</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="light-box box-hover">
+                                <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                                <p>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jainulhasan11@gmail.com">jainulhasan11@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                    <div class="social-icons">
+                        <a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/jainul-hasan-871068201">
+                            <i class="fa fa-linkedin"></i>
+                            <div class="tooltip">LinkedIn</div>
+                            <a class="social-icon social-icon--instagram" href="https://www.instagram.com/jainul_hasan_">
+                                <i class="fa fa-instagram"></i>
+                                <div class="tooltip">Instagram</div>
+                                <a class="social-icon social-icon--facebook" href="https://www.facebook.com/jainul.hasan.545">
+                                    <i class="fa fa-facebook"></i>
+                                    <div class="tooltip">Facebook</div>
+
+                                    <a class="social-icon social-icon--github" href="https://github.com/jainulhasan">
+                                        <i class="fa fa-github"></i>
+                                        <div class="tooltip">Github</div>
+                                    </a>
+                                    <a class="social-icon social-icon--hackerrank" href="https://www.hackerrank.com/19bcs041">
+                                        <i class="fab fa-hackerrank"></i>
+                                        <div class="tooltip">hackerrank</div>
+                                    </a>
+                                    <a class="social-icon social-icon--codechef" href="https://www.codechef.com/users/jainul123">
+                                        <i><span class="iconify" data-icon="simple-icons:codechef" data-inline="false"></span></i>
+                                        <div class="tooltip">codechef</div>
+                                    </a>
+
+                                </a>
+                            </a>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="row align-items-start">
+        </section>
 
-                <div class="col">
-                    <img src="./img/pexels-alex-qian-2343473.jpg" alt="" class="img-fluid" style="padding-top: 4rem; padding-bottom: 4rem">
-                    <button type="button" class="btn button primary-button text text-uppercase">Download CV</button>
-                </div>
-                <div class="col">
-                    <img src="./img/pexels-alex-qian-2343473.jpg" alt="" class="img-fluid" style="padding-top: 4rem; padding-bottom: 4rem">
-                    <button type="button" class="btn button primary-button text text-uppercase">Download CV</button>
-                </div>
-                <div class="col">
-                    <img src="./img/pexels-alex-qian-2343473.jpg" alt="" class="img-fluid" style="padding-top: 4rem; padding-bottom: 4rem">
-                    <button type="button" class="btn button primary-button text text-uppercase">Download CV</button>
-                </div>
-            </div>
-
-            <!-- ************************ end project area *************************** -->
+        <!-- ************************ end contact area *************************** -->
 
     </main>
 

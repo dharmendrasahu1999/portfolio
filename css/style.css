@@ -134,4 +134,280 @@
             border-bottom: 2px solid #ec691c;
             padding-bottom: 7px;
         }
+        
+        section h3.section-subheading {
+            margin-bottom: 75px;
+            text-transform: none;
+            font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+        }
+        
+        section h2.section-heading {
+            margin-top: 10rem;
+            margin-bottom: 15px;
+            font-size: 30px;
+            text-transform: none;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .section-padding {
+            padding: 90px 0 100px
+        }
+        
+        .contact-wrap {
+            position: relative;
+        }
+        
+        .up-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -o-border-radius: 50%;
+            background: rgba(61, 201, 179, 0.5);
+            display: block;
+            margin: 0 auto;
+            color: #fff;
+            font-size: 18px;
+            line-height: 46px;
+            text-align: center;
+            position: absolute;
+            top: -26px;
+            /*stick into the last section*/
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .up-btn:hover,
+        .up-btn:focus {
+            color: #fff;
+            background: rgba(61, 201, 179, 1);
+        }
+        
+        .light-box {
+            background-color: #fff;
+            -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
+            -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
+            box-shadow: 0px 1px 0px 0px #f0f2f4;
+            padding: 20px 50px 20px 20px !important;
+        }
+        
+        .light-box:hover,
+        .light-box:focus {
+            -webkit-box-shadow: 0px 3px 0px 0px #3dc9b3;
+            -moz-box-shadow: 0px 3px 0px 0px #3dc9b3;
+            box-shadow: 0px 3px 0px 0px #3dc9b3;
+        }
+        
+        .box-hover {
+            transition: all 500ms ease-in-out;
+            -webkit-transition: all 500ms ease-in-out;
+            -moz-transition: all 500ms ease-in-out;
+            -o-transition: all 500ms ease-in-out;
+        }
+        
+        .box-hover:hover,
+        .box-hover:focus {
+            transform: translate(0, -15px);
+            -webkit-transform: translate(0, -15px);
+            -ms-transform: translate(0, -15px);
+        }
+        
+        ul.social-buttons {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul.social-buttons li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        ul.social-buttons li:last-child {
+            margin-right: 0;
+        }
+        
+        .contact-details {
+            margin: 0 0 30px;
+        }
+        
+        .contact-details h2 {
+            font-size: 20px;
+        }
+        
+        .contact-details h2 span {
+            display: block;
+            color: #3dc9b3;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+        /* Color Variables */
+        /* Social Icon Mixin */
+        /* Social Icons */
+        
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 8rem;
+        }
+        
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin: 0 0.5rem;
+            border-radius: 50%;
+            cursor: pointer;
+            font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            font-size: 2.5rem;
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+        
+        .social-icon:hover {
+            color: #fff;
+        }
+        
+        .social-icon:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+            transform: translate(-50%, -150%);
+        }
+        
+        .social-icon:active {
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+        }
+        
+        .social-icon--linkedin {
+            background: #006599;
+            color: #fff;
+        }
+        
+        .social-icon--linkedin .tooltip {
+            background: #006599;
+            color: currentColor;
+        }
+        
+        .social-icon--linkedin .tooltip:after {
+            border-top-color: #006599;
+        }
+        
+        .social-icon--hackerrank {
+            background: rgb(16, 83, 25);
+            color: #fff;
+        }
+        
+        .social-icon--hackerrank .tooltip {
+            background: rgb(36, 15, 15);
+            color: currentColor;
+        }
+        
+        .social-icon--hackerrank .tooltip:after {
+            border-top-color: #000;
+        }
+        
+        .social-icon--facebook {
+            background: #3b5a9b;
+            color: #fff;
+        }
+        
+        .social-icon--facebook .tooltip {
+            background: #3b5a9b;
+            color: currentColor;
+        }
+        
+        .social-icon--facebook .tooltip:after {
+            border-top-color: #3b5a9b;
+        }
+        
+        .social-icon--instagram {
+            background: #527fa6;
+            color: #fff;
+        }
+        
+        .social-icon--instagram .tooltip {
+            background: #527fa6;
+            color: currentColor;
+        }
+        
+        .social-icon--instagram .tooltip:after {
+            border-top-color: #527fa6;
+        }
+        
+        .social-icon--github {
+            background: #4078c0;
+            color: #fff;
+        }
+        
+        .social-icon--github .tooltip {
+            background: #4078c0;
+            color: currentColor;
+        }
+        
+        .social-icon--github .tooltip:after {
+            border-top-color: #4078c0;
+        }
+        
+        .social-icon--codechef {
+            background: #4b371c;
+            color: #fff;
+        }
+        
+        .social-icon--codechef .tooltip {
+            background: #4b371c;
+            color: currentColor;
+        }
+        
+        .social-icon--codechef .tooltip:after {
+            border-top-color: #4b371c;
+        }
+        
+        .social-icon i {
+            position: relative;
+            top: 1px;
+        }
+        /* Tooltips */
+        
+        .tooltip {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            padding: 0.8rem 1rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            text-transform: uppercase;
+            transform: translate(-50%, -100%);
+            transition: all 0.3s ease;
+            z-index: 1;
+        }
+        
+        .tooltip:after {
+            display: block;
+            position: absolute;
+            bottom: 1px;
+            left: 50%;
+            width: 0;
+            height: 0;
+            content: "";
+            border: solid;
+            border-width: 10px 10px 0 10px;
+            border-color: transparent;
+            transform: translate(-50%, 100%);
+        }
         /* end about area */

@@ -1,9 +1,9 @@
         /* import fonts */
-        
+
         @import url(./fonts.css);
         @import url(./partials/varaibles.css);
         /* start nav */
-        
+
         .navbar-brand {
             color: black;
             /* font-family: var(--roboto); */
@@ -11,29 +11,29 @@
             text-transform: uppercase;
             padding: 0rem 2rem 0rem 6rem;
         }
-        
+
         .nav-item {
             color: black;
             font-family: var(--roboto);
             font-weight: 500;
             padding: 0rem 5rem 0 5rem;
         }
-        
+
         .nav-link {
             color: black;
         }
-        
+
         .nav-item a:hover {
             color: green;
         }
         /* end nav */
         /* start banner area */
-        
+
         .site-main {
             padding: 15%;
             font-weight: 500;
         }
-        
+
         .site-title h3::after {
             content: "";
             height: 2px;
@@ -47,19 +47,19 @@
             -ms-transform: translateY(-5px);
             -o-transform: translateY(-5px);
         }
-        
+
         .site-title h4 {
             font-size: 1.5rem;
         }
-        
+
         .title-text {
             font: normal bold 50px/72px var(--roboto);
         }
-        
+
         .text-uppercase {
             padding: 0 0 1rem;
         }
-        
+
         .button {
             padding: 1rem 2.915rem;
             font: normal 500 16px/20px var(--roboto);
@@ -68,7 +68,7 @@
             border: radius 4p;
             ;
         }
-        
+
         .button.primary-button {
             background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
             background-clip: padding-box;
@@ -76,13 +76,13 @@
             transition: background.6s ease;
             box-shadow: var(--box-shadow);
         }
-        
+
         .button.primary-button:hover {
             background: whitesmoke;
             background-clip: padding-box;
             color: black;
         }
-        
+
         .button.secondary-button {
             background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
             background-clip: padding-box;
@@ -90,13 +90,13 @@
             transition: background.6s ease;
             box-shadow: var(--box-shadow);
         }
-        
+
         .button.secondary-button:hover {
             background: whitesmoke;
             background-clip: padding-box;
             color: black;
         }
-        
+
         .about-image {
             padding-top: 4rem;
         }
@@ -109,11 +109,11 @@
         } */
         /* end banner area */
         /* start aout area */
-        
+
         .about-area {
             padding-top: 12rem;
         }
-        
+
         .under {
             margin-left: auto;
             margin-right: auto;
@@ -122,7 +122,7 @@
             border-top: 2px solid #ec691c;
             padding-bottom: 7px;
         }
-        
+
         .project-text {
             padding-top: 15rem;
             text-align: center;
@@ -135,3 +135,10 @@
             padding-bottom: 7px;
         }
         /* end about area */
+
+        /*done by dk edited*/
+        .profile-img{
+          height: 50px;
+          width: 50px;
+          border-radius: 100%;
+        }
